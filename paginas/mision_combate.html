@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misión de Combate</title>
+</head>
+<body>
+
+    <header>
+        <h1>Misión de Combate</h1>
+    </header>
+
+    <section>
+        <h2>Poderes de la Fuerza Aprendidos</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Poder</th>
+                    <th>Descripción</th>
+                    <th>Nivel de Dominio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Control Mental</td>
+                    <td>Influir en la mente de otros para obtener información o controlar sus acciones.</td>
+                    <td rowspan="2">Intermedio</td>
+                </tr>
+                <tr>
+                    <td>Empujón de la Fuerza</td>
+                    <td>Empujar objetos o enemigos a distancia usando la Fuerza.</td>
+                </tr>
+                <tr>
+                    <td>Salto de la Fuerza</td>
+                    <td>Saltar grandes distancias o alturas usando la Fuerza.</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>Defensa con Sable</td>
+                    <td>Usar el sable de luz para bloquear disparos y ataques.</td>
+                    <td>Avanzado</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Nota: El dominio de los poderes mejora con la práctica y la meditación.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section>
+        <h2>Formulario de Reporte de Misión</h2>
+        <form action="submit_mission.php" method="POST">
+            <label for="mission_name">Nombre de la Misión:</label>
+            <input type="text" id="mission_name" name="mission_name" required><br>
+
+            <label for="mission_report">Reporte:</label>
+            <textarea id="mission_report" name="mission_report" required></textarea><br>
+
+            <label for="mission_status">Estado de la Misión:</label>
+            <select id="mission_status" name="mission_status">
+                <option value="success">Éxito</option>
+                <option value="failure">Fracaso</option>
+                <option value="in_progress">En Progreso</option>
+            </select><br>
+
+            <button type="submit">Enviar Reporte</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Star Wars: Vieja República</p>
+    </footer>
+
+</body>
+</html>
