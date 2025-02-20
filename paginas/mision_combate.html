@@ -10,6 +10,19 @@
     <header>
         <h1>Misión de Combate</h1>
     </header>
+    <main>
+        <article>
+                <h2>Historia de la Misión de Combate</h2>
+                <p>
+                    Llegas a la capital del planeta Taris, donde te encuentras con los altos mandos. Sin embargo, los guardias te niegan el acceso, alegando que el consejo está ocupado. Esto te enfurece, y decides entrar por la fuerza. Usando tus sentimientos, realizas un poderoso empujón de la Fuerza que derriba a los guardias y abre las puertas del edificio.
+                </p>
+                <p>
+                    Al entrar, los guardias te disparan, pero con destreza sacas tu sable de luz y bloqueas sus disparos, derribándolos uno a uno. Después de recorrer un largo pasillo, llegas al salón donde se encuentran los altos mandos. Dejándote llevar por tus emociones, dejas a casi todos heridos, excepto al líder supremo, a quien controlas mentalmente usando la Fuerza. Le ordenas que indique a los recaudadores de impuestos que devuelvan todo el dinero robado a los ciudadanos.
+                </p>
+                <p>
+                    Después de unos meses, el planeta se estabiliza económicamente, y los ciudadanos recuperan su dinero. Sin embargo, al regresar a Coruscant, el Consejo Jedi te juzga por tus acciones. Aunque lograste completar la misión, el uso excesivo de la fuerza y el control mental te llevan a ser castigado. Esto te hace cuestionar la rigidez del Consejo Jedi, ya que crees que, sin tus acciones, la misión no se habría completado de manera eficaz.
+                </p>
+            </article>
 
     <section>
         <h2>Poderes de la Fuerza Aprendidos</h2>
@@ -39,7 +52,7 @@
                 <tr>
                     <td>Defensa con Sable</td>
                     <td>Usar el sable de luz para bloquear disparos y ataques.</td>
-                    <td>Avanzado</td>
+                    <td>Bajo</td>
                 </tr>
             </tbody>
             <tfoot>
@@ -49,30 +62,11 @@
             </tfoot>
         </table>
     </section>
-
-    <section>
-        <h2>Formulario de Reporte de Misión</h2>
-        <form action="submit_mission.php" method="POST">
-            <label for="mission_name">Nombre de la Misión:</label>
-            <input type="text" id="mission_name" name="mission_name" required><br>
-
-            <label for="mission_report">Reporte:</label>
-            <textarea id="mission_report" name="mission_report" required></textarea><br>
-
-            <label for="mission_status">Estado de la Misión:</label>
-            <select id="mission_status" name="mission_status">
-                <option value="success">Éxito</option>
-                <option value="failure">Fracaso</option>
-                <option value="in_progress">En Progreso</option>
-            </select><br>
-
-            <button type="submit">Enviar Reporte</button>
-        </form>
-    </section>
+</main>
 
     <footer>
-        <p>&copy; 2023 Star Wars: Vieja República</p>
+        <p>&copy; Laboratorio 3 web</p>
     </footer>
-
+    
 </body>
 </html>
