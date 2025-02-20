@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soldado de la República</title>
+</head>
+<body>
+
+    <header>
+        <h1>Soldado de la República</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Enlistamiento</h2>
+            <form action="" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label for="gender">Género:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Masculino</option>
+                    <option value="female">Femenino</option>
+                    <option value="other">Otro</option>
+                </select><br>
+    
+                <label for="species">Especie:</label>
+                <input type="text" id="species" name="species" required><br>
+    
+                <label for="experience">Experiencia Militar:</label>
+                <textarea id="experience" name="experience"></textarea><br>
+    
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </section>
+        <article>
+            <h2>Historia del Soldado de la República</h2>
+            <p>
+                Después de unirte al Ejército de la República, te asignan a una unidad destinada a proteger los planetas del Borde Exterior. Tu primera misión es defender una colonia minera en el planeta Ord Mantell, que está siendo atacada por piratas y esclavistas.
+            </p>
+            <p>
+                Durante la batalla, demuestras un gran valor y habilidad en el combate. Usando tu rifle bláster y granadas de plasma, logras repeler a los piratas y salvar a los colonos. Tu liderazgo y estrategia son clave para la victoria, y tus superiores te felicitan por tu desempeño.
+            </p>
+            <p>
+                Sin embargo, después de la misión, te das cuenta de que la guerra tiene un costo emocional. Algunos de tus compañeros no sobrevivieron, y comienzas a cuestionar si la República está haciendo lo correcto al enviar soldados a misiones tan peligrosas. A pesar de tus dudas, decides continuar sirviendo, con la esperanza de que tus acciones ayuden a mantener la paz en la galaxia.
+            </p>
+        </article>
+
+        <section>
+            <h2>Armas Disponibles</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Arma</th>
+                        <th>Descripción</th>
+                        <th>Nivel de Daño</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bláster E-11</td>
+                        <td>Rifle bláster estándar del Ejército de la República.</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Pistola DL-44</td>
+                        <td>Pistola bláster de alta potencia.</td>
+                        <td>Medio</td>
+                    </tr>
+                    <tr>
+                        <td>Rifle Sniper</td>
+                        <td>Rifle de precisión para tiradores expertos.</td>
+                        <td>Muy Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Granadas de Plasma</td>
+                        <td>Explosivos de alto poder.</td>
+                        <td rowspan="2">Extremo</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Nota: Elige tu arma según la misión.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>&copy; Laboratorio 3 web</p>
+    </footer>
+
+</body>
+</html>
